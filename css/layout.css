@@ -1,0 +1,5 @@
+@import "reset.css";
+
+body{background-color: #2FA3FB;width: 100%;height: auto;margin: 0 auto;}
+
+.all{width: 60%;height: auto;background-color: #D5D5D5;margin: 0 auto;padding: 0 0 10px 0;}
