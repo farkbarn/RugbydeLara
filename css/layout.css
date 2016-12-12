@@ -2,4 +2,26 @@
 
 body{background-color: #2FA3FB;width: 100%;height: auto;margin: 0 auto;}
 
-.all{width: 60%;height: auto;background-color: #D5D5D5;margin: 0 auto;padding: 0 0 10px 0;}
+.all{width: 1180px;height: auto;background-color: #D5D5D5;margin: 0 auto;padding: 0 0 10px 0;}
+
+.ads{width:100%;}
+
+.contenido{width:100%;}
+
+header{height:150px;width:100%;background-color:#abc;display: inline-block;}
+
+.logo{color:#B30000;font-size:2em;}
+.logo span{color:#000;font-size: 0.7em;}
+.logo span.barra{font-size: 2em;}
+
+header .logo{width: 60%;height: 150px;float: left;}
+header .rrss{display: block;background-color: #045;width: 40%;height: 150px;float: right;}
+header .rrss .ulrrss{display: inline-flex;}
+
+
+article.main ul.slider{display: inline-flex;}
+article.main ul.slider li article{}
+article.main ul.slider li article figure.notasmain figcaption{top:50px;float: right;position: relative;right: 0px;background-color: #FF2727;padding: 10px;color: #FFF;font-size: 1.5em;}
+article.main ul.slider li article figure.notasmain figcaption span{font-size: 0.7em;display: block;}
+
+
