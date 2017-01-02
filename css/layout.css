@@ -1,4 +1,6 @@
 @import "reset.css";
+@import "font.css";
+
 
 body{background-color: #2FA3FB;width: 100%;height: auto;margin: 0 auto;}
 

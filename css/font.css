@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "MasteroBreak";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/master_of_break.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "MasteroBreak";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/master_of_break.otf) format("opentype");
+}
