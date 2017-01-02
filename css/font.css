@@ -11,3 +11,67 @@
     font-weight: 400;
     src: url(../font/master_of_break.otf) format("opentype");
 }
+
+@font-face {
+    font-family: "sinkin-sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/SinkinSans-400Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Flama-Basic";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/Flama-Basic.otf) format("opentype");
+}
+
+
+/*-------------------------------------*/
+@font-face {
+  font-family: 'rrssfonts';
+  src:
+    url('../font/rrssfonts.ttf?f5ekdr') format('truetype'),
+    url('../font/rrssfonts.woff?f5ekdr') format('woff'),
+    url('../font/rrssfonts.svg?f5ekdr#rrssfonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rrssfonts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+
