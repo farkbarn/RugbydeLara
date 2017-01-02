@@ -1,29 +1,97 @@
 @import "reset.css";
 @import "font.css";
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
 
 
-body{background-color: #2FA3FB;width: 100%;height: auto;margin: 0 auto;}
+body{width: 100%;height: auto;margin: 0 auto;font-family: sinkin-sans, Roboto, sans-serif, serif, monospace;}
+img{width: 100%;}
+a{text-decoration: none;}
+section{overflow: hidden;}
 
-.all{width: 1180px;height: auto;background-color: #D5D5D5;margin: 0 auto;padding: 0 0 10px 0;}
+.all{max-width: 1180px;height: auto;margin: 0 auto;padding: 0 0 10px 0;}
+.all .contenido{max-width: 1180px;width:100%;margin: 2% 0;}
+.all .contenido .ads{max-width: 1180px;width:100%;height: auto;}
 
-.ads{width:100%;}
+header{height:150px;width:100%;display: inline-block;}
 
-.contenido{width:100%;}
+header .logo{color:#B30000;font-size:2em;}
+header .logo span{color:#000;font-size: 0.7em;}
+header .logo span.barra{font-size: 2em;}
+header .logo{width: 60%; height: 150px;float: left;}
+header .logo span.logo{font-family: MasteroBreak;color: #B30000;font-size:3em;line-height: 1.5em;float: left;margin-left: 1%;width: initial;}
+header .logo span.lara{font-size: 1.3em;font-weight: bold;line-height: 3.6em;margin-left: 2%;float: left;font-family: Flama-Basic;}
+header .logo span.barra{line-height: 3.8em;margin-left: 5%;height: 80px;width: initial; border-left: 1px solid #000;float: left;margin-top: 5%;}
+header .rrss{width: 40%;height: 150px;float: right;}
+header .rrss .ulrrss{display: inline-flex;float: right;font-size: 2.5em;color: #FFF;margin-top: 10%;}
+header .rrss .ulrrss li{background-color: #A10202;margin: 2% 5%;border-radius: 50px;width: 90px;height: 54px;text-align: center;}
+header .rrss .ulrrss li span{line-height: 55px;vertical-align: text-top;}
 
-header{height:150px;width:100%;background-color:#abc;display: inline-block;}
+.all .contenido .slider{width: 100%;height: 480px;background-color: #000;}
+.all .contenido .slider a{float: right;}
+.all .contenido .slider ul{}
+.all .contenido .slider ul li{}
+.all .contenido .slider ul li a{}
+.all .contenido .slider ul li span.text{float: right;top: -85%;z-index: 2;position: relative;background-color: #A10202;padding: 1%;max-width: 550px;}
+.all .contenido .slider ul li span.text a{float: left;width: 100%;color: #FFF;line-height: 22px; margin-top: 1%;}
+.all .contenido .slider ul li span.text a.tit{font-size: 1.8em;}
+.all .contenido .slider ul.content {height: 440px; width: 100%;}
+.all .contenido .slider ul.ctrls {float: left; display: flex; color: #FFF; font-size: 26px; font-weight: bold; margin-top: 0.5%;}
+.all .contenido .slider ul.ctrls li.itemedit{}
+.all .contenido .slider ul.ctrls li.itemedit section.bot{width: 20px; height: 20px; background-color: #fff; border-radius: 50px;margin: 0 5px;}
+.all .contenido .slider ul.ctrls li.itemselect section.bot{background-color: #B30000;}
 
-.logo{color:#B30000;font-size:2em;}
-.logo span{color:#000;font-size: 0.7em;}
-.logo span.barra{font-size: 2em;}
+.all .contenido nav.menumain {width: 100%;margin-top: 1.5%;}
+.all .contenido nav.menumain ul {display: flex; width: 100%; }
+.all .contenido nav.menumain ul li {padding: 1% 2%; background-color: #B30000; border-left: 4px solid #FFF; width: 20%; text-align: center;}
+.all .contenido nav.menumain ul li.mark {background-color: #641111;}
+.all .contenido nav.menumain ul li:first-child {border-left: none;}
+.all .contenido nav.menumain ul li a {color: #FFF;font-size: 1.5em;font-weight: bold; text-align: center;}
 
-header .logo{width: 60%;height: 150px;float: left;}
-header .rrss{display: block;background-color: #045;width: 40%;height: 150px;float: right;}
-header .rrss .ulrrss{display: inline-flex;}
+.all .contenido .notas { width: 68%; float: left; margin-bottom: 2%;}
+.all .contenido .notas ul.ulnot { width: 100%;display: flex;flex-wrap: wrap;}
+.all .contenido .notas ul.ulnot li.linot { width: 48%; margin-right: 2%;}
+.all .contenido .notas ul.ulnot li.linot article.art {border-bottom: 1px solid #000; padding: 5% 0;}
+.all .contenido .notas ul.ulnot li.linot article.art img {width: 100%;}
+.all .contenido .notas ul.ulnot li.linot article.art h1 {margin: 5% 0; font-size: 20px;}
+.all .contenido .notas ul.ulnot li.linot article.art p {width: 100%;margin: 5% 0; font-size: 16px; line-height: 20px;}
+.all .contenido .notas ul.ulnot li.linot article.art p:last-child {margin: 4% 0; font-size: 10px;}
+
+.all .contenido .widget { width: 32%; float: right;}
+.all .contenido .widget ul.ultrio { width: 100%;display: flex;flex-wrap: wrap;}
+.all .contenido .widget ul.ultrio li.litrio { width: 100%; height: 192px;}
+.all .contenido .widget ul.ultrio li.litrio article.art {border-bottom: 1px solid #000; padding: 5% 0;}
+.all .contenido .widget ul.ultrio li.litrio article.art img {width: 50%; height: 50%;}
+.all .contenido .widget ul.ultrio li.litrio article.art h1 {margin: 3%; font-size: 16px; float: right; width: 44%; text-align: center;}
+.all .contenido .widget ul.ultrio li.litrio article.art p {width: 48%;margin-top: 5%; font-size: 12px; float: right; position: relative;top: -110px;}
+
+.all .contenido .widget ul.uldupla {width: 100%;display: flex;flex-wrap: wrap;padding: 4.4% 0;border-bottom: 1px solid black;}
+.all .contenido .widget ul.uldupla li.livid {width: 100%;height: 230px;background: red;margin-bottom: 10%;}
+
+.all .contenido footer {width: 100%;height: 170px;clear: both; background-color: #000;}
+.all .contenido footer ul.footer {display: flex;}
+.all .contenido footer ul.footer li {width: 33%;padding: 0 1%;}
+
+.all .contenido footer ul.footer li {width: 33%;padding: 0 1%;}
+.all .contenido footer ul.footer li h2 {color: #FFF;}
+.all .contenido footer ul.footer li p {color: #d8d8d8;}
+.all .contenido footer ul.footer li h3 {color: #FFF;}
 
 
-article.main ul.slider{display: inline-flex;}
-article.main ul.slider li article{}
-article.main ul.slider li article figure.notasmain figcaption{top:50px;float: right;position: relative;right: 0px;background-color: #FF2727;padding: 10px;color: #FFF;font-size: 1.5em;}
-article.main ul.slider li article figure.notasmain figcaption span{font-size: 0.7em;display: block;}
+.all .contenido footer ul.footer li.cont {margin-top: 2%;margin-left: 2%;}
+.all .contenido footer ul.footer li.cont h2 {font-size: 12px;}
+.all .contenido footer ul.footer li.cont p {color: #787878;font-size: 11px;margin: 5% 0;}
+.all .contenido footer ul.footer li.cont h3 {font-size: 12px;}
+
+.all .contenido footer ul.footer li.logo {margin-top: 5%;margin-left: 5%;}
+.all .contenido footer ul.footer li p.logo {color: #787878;font-size: 2em;font-family: Flama-Basic;}
+.all .contenido footer ul.footer li p.logo span.rugby {font-size: 2em;font-family: MasteroBreak;}
 
 
+
+header .logo{color:#B30000;font-size:2em;}
+header .logo span{color:#000;font-size: 0.7em;}
+header .logo span.barra{font-size: 2em;}
+header .logo{width: 60%; height: 150px;float: left;}
+header .logo span.logo{font-family: MasteroBreak;color: #B30000;font-size:3em;line-height: 1.5em;float: left;margin-left: 1%;width: initial;}
+header .logo span.lara{font-size: 1.3em;font-weight: bold;line-height: 3.6em;margin-left: 2%;float: left;}
+header .logo span.barra{line-height: 3.8em;margin-left: 5%;height: 80px;width: initial; border-left: 1px solid #000;float: left;margin-top: 5%;}
