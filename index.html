@@ -2,17 +2,37 @@
 <html lang="ES">
 <head>
 	<title> Rugby de Lara </title>
-
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="Description" content ='Rugby de Lara'>
 	<meta name="Author" content="Frank Barrera - @farkbarn">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- bootstrap css-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/layout.css">
+	<!-- icon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+	<link rel="manifest" href="icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
 
 </head>
 <body>
-
 <section class="all">
 	<section class="contenido">
 		<aside class="ads">
@@ -20,62 +40,34 @@
 		</aside>
 		<header id="header" class="header">
 			<section class="logo">
-				<span class="logo">Rugby</span> <span class="lara">de lara</span><span class="barra"></span>
+				<span class="logo">Rugby</span> <span class="lara">de lara</span>
 			</section>
 			<section class="rrss">
 				<ul class="ulrrss">
-				    <li class="fb"><span class="icon-facebook"></span></li>
-				    <li class="tw"><span class="icon-twitter"></span></li>
-				    <li class="ig"><span class="icon-instagram"></span></li>
-				    <li class="yt"><span class="icon-youtube"></span></li>
+				    <li class="fb"><a href="#" title=""><span class="icon-facebook"></span></a></li>
+				    <li class="tw"><a href="#" title=""><span class="icon-twitter"></span></a></li>
+				    <li class="ig"><a href="#" title=""><span class="icon-instagram"></span></a></li>
+				    <li class="yt"><a href="#" title=""><span class="icon-youtube"></span></a></li>
 				</ul>
 			</section>
 		</header><!-- /header -->
 
-		<section class="slider">
-			<ul class="content">
-				<li class="sli">
-					<article class="slider">
-						<a href="#" title=""><img src="http://ximg.es/1180x440/ddd/fff.jpg" alt="">
-						</a>
-						<span class="text">
-							<a class="tit" href="#" title="">Titulo 1</a>
-							<a class="cont" href="#" title="">bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </a>
-						</span>
-					</article>
-				</li>
+		<style type="text/css" media="screen">.destacada{background-image: url("http://ximg.es/1180x450/ddd/fff.jpg");}</style>
+		<article class="destacada">
+ 				<span class="text">
+					<span class="tit" title="">Titulo 1</span><br><br>
+					<span class="cont" title="">bla bla bla bla bla bla bla blaasf bla bla bla bla bla bla bla bla bla bla bla bla bla bla</span>
+				</span>
+		</article>
 
-				<li class="sli">
-					<article class="slider">
-						<a href="#" title=""><img src="http://ximg.es/1180x440/ddd/fff.jpg" alt="">
-						</a>
-						<span class="text">
-							<a class="tit" href="#" title="">Titulo 2</a>
-							<a class="cont" href="#" title="">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb </a>
-						</span>
-					</article>
-				</li>
-			</ul>
-			<ul class="ctrls">
-				<li class="itemedit"><p onclick="plusDivs(-1)"><</p></li>
-				<li class="itemedit preview" onclick="currentDiv(1)">
-					<section class="bot"></section>
-				</li>
-				<li class="itemedit preview" onclick="currentDiv(2)">
-					<section class="bot"></section>
-				</li>
-				<li class="itemedit"><p onclick="plusDivs(1)">></p></li>
-			</ul>
-		</section>
-
-		<nav class="menumain">
-		    <ul>
-		        <li class="mark"><a href="#">Inicio</a></li><!--
-		     --><li><a href="#">Nacionales</a></li><!--
-		     --><li><a href="#">Galería</a></li><!--
-		     --><li><a href="#">Galería</a></li><!--
-		     --><li><a href="#">Galería</a></li><!--
-		     --><li><a href="#">Contacto</a></li>
+		<nav class="menumain menu navbar ">
+		    <ul class="nav navbar-nav navbar-center">
+		        <li><a href="#">inicio</a></li><!--
+		     --><li><a href="#">noticias</a></li><!--
+		     --><li><a href="#">equipos</a></li><!--
+		     --><li><a href="#">coaching</a></li><!--
+		     --><li><a href="#">galería</a></li><!--
+		     --><li><a href="#">contacto</a></li>
 		    </ul>
 		</nav>
 
@@ -145,7 +137,6 @@
 		    			<p>Contenido aquí, contenido aquí".</p>
 		    		</article>
 		    	</li>
-
 			</ul>
 
 			<ul class="uldupla">
@@ -173,31 +164,4 @@
 	</section>
 </section>
 </body>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("sli");
-  var dots = document.getElementsByClassName("preview");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" itemselect", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " itemselect";
-}
-</script>
-
 </html>
