@@ -22,14 +22,11 @@ section{overflow: hidden;}
 .all .contenido  li span.text a.tit{font-size: 1.8em;}
 .all .contenido  .content {height: 440px; width: 100%;}
 
-.all .contenido .notas {width: 68%; float: left; margin-bottom: 2%;}
-.all .contenido .notas ul.ulnot {width: 100%;display: flex;flex-wrap: wrap;}
-.all .contenido .notas ul.ulnot li.linot {width: 48%; margin-right: 2%;}
-.all .contenido .notas ul.ulnot li.linot article.art {border-bottom: 1px solid #000;}
-.all .contenido .notas ul.ulnot li.linot article.art img {width: 100%;}
-.all .contenido .notas ul.ulnot li.linot article.art h1 {margin: 5% 0; font-size: 20px;}
-.all .contenido .notas ul.ulnot li.linot article.art p {width: 100%;margin: 5% 0; font-size: 16px; line-height: 20px;}
-.all .contenido .notas ul.ulnot li.linot article.art p:last-child {margin: 4% 0; font-size: 10px;font-weight: bold;}
+.all .contenido .cat ul.ulnot li.linotcat article.art {border-bottom: 1px solid #000;}
+.all .contenido .cat ul.ulnot li.linotcat article.art img {width: 100%;}
+.all .contenido .cat ul.ulnot li.linotcat article.art h1 {margin: 5% 0; font-size: 20px;}
+.all .contenido .cat ul.ulnot li.linotcat article.art p {width: 100%;margin: 5% 0; font-size: 16px; line-height: 20px;}
+.all .contenido .cat ul.ulnot li.linotcat article.art p:last-child {margin: 4% 0; font-size: 10px;font-weight: bold;}
 
 .all .contenido .widget {width: 32%; float: right;}
 .all .contenido .widget ul.ultrio {width: 100%;display: flex;flex-wrap: wrap;}
@@ -41,9 +38,9 @@ section{overflow: hidden;}
 .all .contenido .widget ul.ultrio li.litrio article.art p {width: 48%;margin-top: 5%; font-size: 12px; float: right; position: relative;top: -110px;}
 
 .all .contenido .widget ul.uldupla {width: 100%;display: flex;flex-wrap: wrap;padding: 4.4% 0;border-bottom: 1px solid black;}
-.all .contenido .widget ul.uldupla li.livid {width: 100%;height: 230px;background: red;margin-bottom: 10%;}
+.all .contenido .widget ul.uldupla li.livid {width: 100%;height: 230px;background: #AD0000;margin-bottom: 10%;}
 
-.all .contenido footer {width: 100%;height: 170px;clear: both; background-color: #000;}
+.all .contenido footer {width: 100%;height: 170px;clear: both; background-color: #000;float: left;margin-top: 20px;}
 .all .contenido footer ul.footer {display: flex;}
 .all .contenido footer ul.footer li {width: 33%;padding: 0 1%;}
 
@@ -83,3 +80,22 @@ header .rrss .ulrrss li a span{line-height: 55px;vertical-align: text-top;color:
 .all .contenido  .destacada span.text{width: 50%;margin-top: 20px;padding: 20px;float: right;background-color: #A10202;color: #FFF;}
 .all .contenido  .destacada span.text .tit{font-weight: bold;font-size: 1.5em;}
 .all .contenido  .destacada span.text .cont{text-transform: lowercase;}
+
+.all .contenido .notas {width: 68%; float: left;}
+.all .contenido .notas ul.ulnot {width: 100%;display: flex;flex-wrap: wrap;}
+.all .contenido .notas ul.ulnot li.linot {width: 48%; margin-right: 2%;}
+.all .contenido .notas ul.ulnot li.linot article.art {border-bottom: 1px solid #000;}
+.all .contenido .notas ul.ulnot li.linot article.art img {width: 100%;}
+.all .contenido .notas ul.ulnot li.linot article.art h1 {margin: 5% 0; font-size: 20px;}
+.all .contenido .notas ul.ulnot li.linot article.art p {width: 100%;margin: 5% 0; font-size: 16px; line-height: 20px;}
+.all .contenido .notas ul.ulnot li.linot article.art p:last-child {margin: 4% 0; font-size: 10px;font-weight: bold;}
+
+.all .contenido .cat {width: 100%; float: left;}
+.all .contenido .cat ul.ulnot {width: 100%;display: flex;display: inline-block;text-align: center;}
+.all .contenido .cat ul.ulnot li.linotcat {width: 32%;display: inline-block;text-align: left;margin-bottom: 25px;}
+.all .contenido .cat ul.ulnot li.linotcat:nth-child(3n + 1) {float: left;}
+.all .contenido .cat ul.ulnot li.linotcat:nth-child(3n + 3) {float: right}
+
+.all .contenido .navpag {width: 100%;margin: 25px 0; float: left;height: 50px;text-align: center;font-weight: bold;color: #9c9c9c;line-height: 50px;font-size: 1.5em;}
+.all .contenido .line {border-bottom: 2px solid #9C9C9C;width: 100%;}
+.all .contenido .widgetcat {width: 100%; margin: 25px 0 0 0; float: left; height: 240px;background-color: #AD0000;}
