@@ -6,6 +6,7 @@
 body{width: 100%;height: auto;margin: 0 auto;font-family: sinkin-sans, Roboto, sans-serif, serif, monospace;}
 img{width: 100%;}
 a{text-decoration: none;}
+a:hover{text-decoration: none;}
 section{overflow: hidden;}
 
 .all{max-width: 1180px;height: auto;margin: 0 auto;padding: 0 0 10px 0;}
@@ -78,16 +79,19 @@ header .rrss .ulrrss li a span{line-height: 55px;vertical-align: text-top;color:
 
 .all .contenido  .destacada {height: 450px; width: 100%;background-size: 100% auto;background-repeat: no-repeat;}
 .all .contenido  .destacada span.text{width: 50%;margin-top: 20px;padding: 20px;float: right;background-color: #A10202;color: #FFF;}
-.all .contenido  .destacada span.text .tit{font-weight: bold;font-size: 1.5em;}
+.all .contenido  .destacada span.text .tit a{font-weight: bold;font-size: 1.5em;color: #FFF; text-transform: capitalize;}
 .all .contenido  .destacada span.text .cont{text-transform: lowercase;}
+.all .contenido  .destacada span.text .cont a{color:#FFF;}
 
 .all .contenido .notas {width: 68%; float: left;}
 .all .contenido .notas ul.ulnot {width: 100%;display: flex;flex-wrap: wrap;}
 .all .contenido .notas ul.ulnot li.linot {width: 48%; margin-right: 2%;}
-.all .contenido .notas ul.ulnot li.linot article.art {border-bottom: 1px solid #000;}
+.all .contenido .notas ul.ulnot li.linot article.art {border-bottom: 1px solid #000;margin-bottom: 8%;}
 .all .contenido .notas ul.ulnot li.linot article.art img {width: 100%;}
 .all .contenido .notas ul.ulnot li.linot article.art h1 {margin: 5% 0; font-size: 20px;}
-.all .contenido .notas ul.ulnot li.linot article.art p {width: 100%;margin: 5% 0; font-size: 16px; line-height: 20px;}
+.all .contenido .notas ul.ulnot li.linot article.art h1 a{color: #000;font-weight: bold;text-transform: capitalize;}
+.all .contenido .notas ul.ulnot li.linot article.art p {width: 100%;margin: 5% 0; font-size: 16px; line-height: 25px;}
+.all .contenido .notas ul.ulnot li.linot article.art p a{color: #000;font-weight: bold;}
 .all .contenido .notas ul.ulnot li.linot article.art p:last-child {margin: 4% 0; font-size: 10px;font-weight: bold;}
 
 .all .contenido .cat {width: 100%; float: left;}
