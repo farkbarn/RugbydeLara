@@ -34,4 +34,28 @@ function the_excerpt_max($charlength) {
     }
 }
 
+register_sidebar( array(
+	'name'=>'Principal',
+	'id'=>'widhome',
+	'description'=>'widget para home',
+	'class'=>'widgethome',
+	'before_widget'=>'',
+	'after_widget'=>'',
+	'before_title'=>'',
+	'after_title'=>''
+	) );
+
+register_sidebar( array(
+	'name'=>'Principal Videos',
+	'id'=>'widhomevid',
+	'description'=>'widget para home',
+	'class'=>'widgethomevid',
+	'before_widget'=>'',
+	'after_widget'=>'',
+	'before_title'=>'',
+	'after_title'=>''
+	) );
+
+
+
 ?>

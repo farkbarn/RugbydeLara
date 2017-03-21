@@ -37,6 +37,22 @@ section{overflow: hidden;}
 .all .contenido .widget ul.ultrio li.litrio article.art img {width: 50%; height: 50%;}
 .all .contenido .widget ul.ultrio li.litrio article.art h1 {margin: 3%; font-size: 16px; float: right; width: 44%; text-align: center;}
 .all .contenido .widget ul.ultrio li.litrio article.art p {width: 48%;margin-top: 5%; font-size: 12px; float: right; position: relative;top: -110px;}
+/*css para plugin */
+.all .contenido .widget {width: 32%; float: right;}
+.all .contenido .widget ul.category-posts-internal {width: 100%;display: flex;flex-wrap: wrap;}
+.all .contenido .widget ul.category-posts-internal li.cat-post-item {width: 100%;margin-bottom: 25px;border-bottom: 1px solid black;padding-bottom: 22px;}
+.all .contenido .widget ul.category-posts-internal li.cat-post-item a span img {width: 95%;float: left;display: block;}
+.all .contenido .widget ul.category-posts-internal li.cat-post-item a {width: 50%;text-align: center;color: #000;display: block;float: left;font-size: 12px;line-height: 20px;}
+.all .contenido .widget ul.category-posts-internal li.cat-post-item p {display: block;float: right;width: 50%;margin-top: 10px;padding: 5px;font-size: 12px; line-height: 20px;}
+.all .contenido .widget ul.category-posts-internal li.cat-post-item article.art {border-bottom: 1px solid #000; padding: 5% 0;}
+.all .contenido .widget ul.category-posts-internal li.cat-post-item article:first-child {padding-top: 0;}
+.all .contenido .widget ul.category-posts-internal li.cat-post-item article.art img {width: 50%; height: 50%;}
+.all .contenido .widget ul.category-posts-internal li.cat-post-item article.art h1 {margin: 3%; font-size: 16px; float: right; width: 44%; text-align: center;}
+.all .contenido .widget ul.category-posts-internal li.cat-post-item article.art p {width: 48%;margin-top: 5%; font-size: 12px; float: right; position: relative;top: -110px;}
+
+
+
+
 
 .all .contenido .widget ul.uldupla {width: 100%;display: block;flex-wrap: wrap;padding: 4.4% 0;border-bottom: 1px solid black;}
 .all .contenido .widget ul.uldupla li.livid {width: 100%;height: 230px;background: #AD0000;margin-bottom: 10%;}

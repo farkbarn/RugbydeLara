@@ -6,7 +6,7 @@
 // The Query
 //query_posts(array('posts_per_page'=>$_SESSION['tnot'],'post__not_in'=>$_SESSION['arridpost'],'category__not_in' => $_SESSION[''));
 $ID=get_cat_ID('destaque');
-query_posts( array('posts_per_page'=>3,'category__not_in'=>$ID) ); 
+query_posts( array('posts_per_page'=>4,'category__not_in'=>$ID) ); 
 // The Loop
 while (have_posts()) : the_post();?>
 			    <li class="linot">
@@ -25,36 +25,9 @@ wp_reset_query(); ?>
 		</section>
 
 		<section class="widget">
-			<ul class="ultrio">
-			    <li class="litrio">
-			    	<article class="art">
-			    		<img src="http://ximg.es/175x135/000/fff.jpg" alt="">
-		    			<h1>Titulo de nota</h1>
-		    			<p>Contenido aquí, contenido aquí".</p>
-		    		</article>
-		    	</li>
+		<?php dynamic_sidebar('Principal'); ?>
+		<?php dynamic_sidebar('Principal Videos'); ?>
 
-			    <li class="litrio">
-			    	<article class="art">
-			    		<img src="http://ximg.es/175x135/000/fff.jpg" alt="">
-		    			<h1>Titulo de nota</h1>
-		    			<p>Contenido aquí, contenido aquí".</p>
-		    		</article>
-		    	</li>
-
-			    <li class="litrio">
-			    	<article class="art">
-			    		<img src="http://ximg.es/175x135/000/fff.jpg" alt="">
-		    			<h1>Titulo de nota</h1>
-		    			<p>Contenido aquí, contenido aquí".</p>
-		    		</article>
-		    	</li>
-			</ul>
-
-			<ul class="uldupla">
-				<li class="livid"></li>
-				<li class="livid"></li>
-			</ul>
 		</section>
 
 <?php get_footer();?>
