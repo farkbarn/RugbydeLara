@@ -10,7 +10,11 @@
 					<p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
 					<h3>contenido2</h3>
 				</li>
-			    <li class="logo"><p class="logo"><span class="rugby">Rugby</span> de lara </p></li>
+			    <li class="logo">
+			    	<a href="<?php echo get_site_url(); ?>" title="<?php ?>">
+			    		<p class="logo"><span class="rugby">Rugby</span> de lara </p>
+			    	</a>
+			    </li>
 			</ul>
 		</footer>
 

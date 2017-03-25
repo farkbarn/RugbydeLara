@@ -2,7 +2,7 @@
 <section class="all">
 	<section class="contenido">
 		<aside class="ads">
-			<img src="http://ximg.es/1180x180/000/fff.jpg" alt="">
+			<img src="<?php echo raiz(); ?>img/adsheader.jpg" alt="ads">
 		</aside>
 		<header id="header" class="header">
 			<section class="logo">

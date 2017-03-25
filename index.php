@@ -4,7 +4,6 @@
 			<ul class="ulnot">
 <?php 
 // The Query
-//query_posts(array('posts_per_page'=>$_SESSION['tnot'],'post__not_in'=>$_SESSION['arridpost'],'category__not_in' => $_SESSION[''));
 $ID=get_cat_ID('destaque');
 query_posts( array('posts_per_page'=>4,'category__not_in'=>$ID) ); 
 // The Loop
@@ -20,14 +19,9 @@ while (have_posts()) : the_post();?>
 <?php endwhile;
 // Reset Query
 wp_reset_query(); ?>
-
 			</ul>
 		</section>
-
-		<section class="widget">
-		<?php dynamic_sidebar('Principal'); ?>
-		<?php dynamic_sidebar('Principal Videos'); ?>
-
-		</section>
-
-<?php get_footer();?>
+<?php
+	include('widget.php');
+	get_footer();
+?>
