@@ -15,6 +15,9 @@
  */
 body{width: 100%;height: auto;margin: 0 auto;font-family: sinkin-sans, Roboto, sans-serif, serif, monospace;font-size: 10px;}
 img{width: 100%;}
+strong{font-weight: bold;}
+em{font-style: italic;}
+blockquote{width: 80%;background-color: #DC5A5A;}
 a{text-decoration: none;}
 a:hover{text-decoration: none;}
 section{overflow: hidden;}
@@ -27,10 +30,10 @@ section{overflow: hidden;}
  * header
  */
 header{width:100%;display: inline-block;}
-header .logo span{color:#000;font-size: 0.7rem;}
 header .logo{width: 60%; float: left;}
-header .logo span.logo{font-family: MasteroBreak;color: #B30000;font-size:10rem;line-height: 15rem;float: left;margin-left: 3%;width: initial;}
-header .logo span.lara{font-family: Flama-Basic;font-size:3rem;font-weight: initial;line-height:5rem;padding-left:5%;float: left;margin-top:5rem;padding-right: 5%; border-right: solid 2px black;}
+header .logo a span{color:#000;font-size: 0.7rem;}
+header .logo a span.logo{font-family: MasteroBreak;color: #B30000;font-size:10rem;line-height: 15rem;float: left;margin-left: 3%;width: initial;}
+header .logo a span.lara{font-family: Flama-Basic;font-size:3rem;font-weight: initial;line-height:5rem;padding-left:5%;float: left;margin-top:5rem;padding-right: 5%; border-right: solid 2px black;}
 header .rrss{width: 40%;float: right;}
 header .rrss .ulrrss{display: inline-flex;float: right;font-size: 2.5rem;color: #FFF;margin-top: 20%;}
 header .rrss .ulrrss li{margin: 2% 5%;border-radius: 50px;width: 90px;height: 55px;text-align: center;background-image: url("../img/pic1.png");background-repeat: no-repeat;background-size: 100% 100%;}
@@ -71,16 +74,25 @@ header .rrss .ulrrss li a span{line-height: 55px;vertical-align: text-top;color:
 .all .contenido  .destacada span.text .cont{text-transform: lowercase;font-size: 1rem;}
 .all .contenido  .destacada span.text .cont a{color:#FFF;}
 /**
- * notes
+ * nota
  */
-.all .contenido .notas {width: 68%; float: left;}
+.all .contenido .nota {width: 68%; float: left;}
+.all .contenido .nota article {padding-right: 1rem;padding-bottom: 1rem;}
+.all .contenido .nota article .imgnot{width: 100%;display: inline-block;}
+.all .contenido .nota article h3 a.titnot {padding: 2rem 0;display: inline-block;font-size: 2rem;color: #343434;font-weight: bold;}
+.all .contenido .nota article p {font-size: 1rem;line-height: 1.8rem;color: #444444;}
+.all .contenido .nota article .author {font-size: 1.0rem;font-weight: bold;color: #616161;}
+/**
+ * home notes
+ */
+.all .contenido .notas {width: 67%; float: left;}
 .all .contenido .notas ul.ulnot {width: 100%;display: flex;flex-wrap: wrap;}
 .all .contenido .notas ul.ulnot li.linot {width: 48%; margin-right: 2%;}
 .all .contenido .notas ul.ulnot li.linot article.art {border-bottom: 1px solid #000;margin-bottom: 8%;}
 .all .contenido .notas ul.ulnot li.linot article.art img {width: 100%;}
-.all .contenido .notas ul.ulnot li.linot article.art h1 {margin: 5% 0; font-size: 1.3rem;color: #343434;}
-.all .contenido .notas ul.ulnot li.linot article.art h1 a{color: #343434;font-weight: bold;text-transform: capitalize;}
-.all .contenido .notas ul.ulnot li.linot article.art p {width: 100%;margin: 5% 0; font-size: 16px; line-height: 25px; color: #343434;}
+.all .contenido .notas ul.ulnot li.linot article.art h2 {margin: 5% 0; font-size: 1.3rem;color: #343434;}
+.all .contenido .notas ul.ulnot li.linot article.art h2 a{color: #343434;font-weight: bold;text-transform: capitalize;}
+.all .contenido .notas ul.ulnot li.linot article.art p {width: 100%;margin: 5% 0; font-size: .9rem; line-height: 1.95rem; color: #343434;}
 .all .contenido .notas ul.ulnot li.linot article.art p a{color: #535353;font-weight: bold; font-style: italic;}
 .all .contenido .notas ul.ulnot li.linot article.art p:last-child {margin: 4% 0; font-size: 10px;font-weight: bold;}
 /**
@@ -92,14 +104,18 @@ header .rrss .ulrrss li a span{line-height: 55px;vertical-align: text-top;color:
 .all .contenido .cat ul.ulnot li.linotcat:nth-child(3n + 1) {float: left;}
 .all .contenido .cat ul.ulnot li.linotcat:nth-child(3n + 3) {float: right}
 .all .contenido .cat ul.ulnot li.linotcat article.art {border-bottom: 1px solid #000;}
-.all .contenido .cat ul.ulnot li.linotcat article.art img {width: 100%;}
-.all .contenido .cat ul.ulnot li.linotcat article.art h1 {margin: 5% 0; font-size: 2rem;}
-.all .contenido .cat ul.ulnot li.linotcat article.art p {width: 100%;margin: 5% 0; font-size: 16px; line-height: 20px;}
-.all .contenido .cat ul.ulnot li.linotcat article.art p:last-child {margin: 4% 0; font-size: 10px;font-weight: bold;}
-.all .contenido .navpag {width: 100%;margin: 25px 0; float: left;height: 50px;text-align: center;font-weight: bold;color: #9c9c9c;line-height: 50px;font-size: 1.5em;}
-.all .contenido .widgetcat {width: 100%; margin: 25px 0 0 0; float: left; height: 240px;background-color: #AD0000;}
+.all .contenido .cat ul.ulnot li.linotcat article.art a img {width: 100%;}
+.all .contenido .cat ul.ulnot li.linotcat article.art h2 {margin: 5% 0; font-size: 1.5rem;}
+.all .contenido .cat ul.ulnot li.linotcat article.art h2 a {color: #343434;}
+.all .contenido .cat ul.ulnot li.linotcat article.art p {width: 100%;margin: 5% 0; font-size: 1rem; line-height: 1.8rem;}
+.all .contenido .cat ul.ulnot li.linotcat article.art p:last-child {margin: 4% 0; font-size: 1rem;font-weight: bold;}
+.all .contenido .cat ul.ulnot li.linotcat article.art p a.lnkexcerpt{font-style: italic;color: #535353; font-weight: bold;}
+.all .contenido .navpag {width: 100%;margin: 25px 0; float: left;text-align: center;font-weight: bold;color: #9c9c9c;line-height: 5rem;font-size: 1rem;}
+.all .contenido .navpag .wp-pagenavi span.current{margin: 0 1rem; font-weight: bold;}
+.all .contenido .navpag .wp-pagenavi a.page.larger, .all .contenido .navpag .wp-pagenavi a.page.smaller{color: #676767;}
+.all .contenido .navpag .wp-pagenavi a.nextpostslink, .all .contenido .navpag .wp-pagenavi a.previouspostslink{color: #373737;margin: 0 1rem;}
 /**
- * widget
+ * widget HOME
  */
 .all .contenido .widget {width: 32%; float: right;}
 .all .contenido .widget ul.ultrio {width: 100%;display: flex;flex-wrap: wrap;}
@@ -109,8 +125,25 @@ header .rrss .ulrrss li a span{line-height: 55px;vertical-align: text-top;color:
 .all .contenido .widget ul.ultrio li.litrio article.art img {width: 50%; height: 50%;}
 .all .contenido .widget ul.ultrio li.litrio article.art h1 {margin: 3%; font-size: 16px; float: right; width: 44%; text-align: center;}
 .all .contenido .widget ul.ultrio li.litrio article.art p {width: 48%;margin-top: 5%; font-size: 12px; float: right; position: relative;top: -110px;}
-.all .contenido .line {border-bottom: 1px solid #000000;width: 100%;}
+.all .contenido .line {border-bottom: 1px solid #000;width: 100%;}
 .all .contenido .linewid {margin: 1.46rem 0;}
+/**
+ * widget CATEGORY
+ */
+.widgetcat {width: 100%;display: inline-block;text-align: center;margin-top: 1.5rem;}
+.widgetcat .textwidget{display: inline-block;text-align: center;padding: 0 3%;}
+.widgetcat .textwidget:nth-child(3n + 1){float: left;}
+.widgetcat .textwidget:nth-child(3n + 3){float: right}
+.widgetcat .textwidget iframe{width: 100%;max-height: 240px;margin: 0 1%;}
+/**
+ * widget single
+ */
+.all .contenido .widget .notwid a img{display: inline-block;}
+.all .contenido .widget .notwid h2 {padding: 2rem 0;font-size:1.1rem;}
+.all .contenido .widget .notwid h2 a{color: #343434;font-weight: bold;}
+.all .contenido .widget .notwid p {font-size:0.9rem;line-height: 1.8rem;color: #343434;}
+.all .contenido .widget .notwid p a{font-weight: bold;font-style: italic;color: #343434;}
+.all .contenido .widget .notwid {margin-bottom: 2rem;border-bottom: 1px solid #000;padding-bottom: 2rem;}
 /**
  * css to plugins category-posts
  */
@@ -118,8 +151,8 @@ header .rrss .ulrrss li a span{line-height: 55px;vertical-align: text-top;color:
 .all .contenido .widget ul.category-posts-internal {width: 100%;display: flex;flex-wrap: wrap;}
 .all .contenido .widget ul.category-posts-internal li.cat-post-item {width: 100%;margin-bottom: 25px;border-bottom: 1px solid black;padding-bottom: 22px;}
 .all .contenido .widget ul.category-posts-internal li.cat-post-item a span img {width: 95%;float: left;display: block;}
-.all .contenido .widget ul.category-posts-internal li.cat-post-item a {width: 50%;text-align: center;color: #000;display: block;float: left;font-size: 12px;line-height: 20px;}
-.all .contenido .widget ul.category-posts-internal li.cat-post-item p {display: block;float: right;width: 50%;margin-top: 10px;padding: 5px;font-size: 12px; line-height: 20px;}
+.all .contenido .widget ul.category-posts-internal li.cat-post-item a {width: 50%;text-align: center;color: #343434;display: block;float: left;font-size: 0.9rem;line-height: 1.8rem;font-weight: bold;}
+.all .contenido .widget ul.category-posts-internal li.cat-post-item p {display: block;float: right;width: 50%;margin-top: 10px;padding: 5px;font-size: 0.8rem; line-height: 1.8rem;}
 .all .contenido .widget ul.category-posts-internal li.cat-post-item article.art {border-bottom: 1px solid #000; padding: 5% 0;}
 .all .contenido .widget ul.category-posts-internal li.cat-post-item article:first-child {padding-top: 0;}
 .all .contenido .widget ul.category-posts-internal li.cat-post-item article.art img {width: 50%; height: 50%;}

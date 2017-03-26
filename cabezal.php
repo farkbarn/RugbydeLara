@@ -6,7 +6,7 @@
 		</aside>
 		<header id="header" class="header">
 			<section class="logo">
-				<span class="logo">Rugby</span> <span class="lara">de lara</span>
+				<a href="<?php echo get_bloginfo( 'url' );?>" title="<?php echo get_bloginfo( 'name' );?>"><span class="logo">Rugby</span> <span class="lara">de lara</span></a>
 			</section>
 			<section class="rrss">
 				<ul class="ulrrss">

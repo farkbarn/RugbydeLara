@@ -15,7 +15,6 @@ function raiz() {echo get_template_directory_uri().'/';}
 function caturl($id){echo esc_url(get_category_link($id));}
 function pagurl($id){echo esc_url(get_page_link($id->ID));}
 
-
 function the_excerpt_max($charlength) {
     $excerpt=get_the_excerpt();
     $charlength++;
@@ -48,8 +47,19 @@ register_sidebar( array(
 register_sidebar( array(
 	'name'=>'Principal Videos',
 	'id'=>'widhomevid',
-	'description'=>'widget para home',
+	'description'=>'widget para videos de home',
 	'class'=>'widgethomevid',
+	'before_widget'=>'',
+	'after_widget'=>'',
+	'before_title'=>'',
+	'after_title'=>''
+	) );
+
+register_sidebar( array(
+	'name'=>'Widget Categoria',
+	'id'=>'widcatvid',
+	'description'=>'widget para videos de categoria',
+	'class'=>'widgetcatvid',
 	'before_widget'=>'',
 	'after_widget'=>'',
 	'before_title'=>'',

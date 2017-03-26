@@ -17,7 +17,6 @@
 			    </li>
 			</ul>
 		</footer>
-
 	</section>
 </section>
 </body>

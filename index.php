@@ -1,5 +1,5 @@
-<?php get_header(); ?>
-<?php include('cabezal.php'); include('index_post.php'); include('menu.php'); ?>
+<?php get_header();
+include('cabezal.php'); include('index_post.php'); include('menu.php'); ?>
 		<section class="notas">
 			<ul class="ulnot">
 <?php 
@@ -11,8 +11,8 @@ while (have_posts()) : the_post();?>
 			    <li class="linot">
 			    	<article class="art">
 			    		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php if (has_post_thumbnail()) {the_post_thumbnail_url('medium');} ?>" alt="<?php the_title(); ?>"></a>
-		    			<h1><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
-		    			<p><?php the_excerpt_max(200); ?></p>
+		    			<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+		    			<p><?php the_excerpt_max(170); ?></p>
 		    			<p>texto sin definir</p>
 		    		</article>
 		    	</li>

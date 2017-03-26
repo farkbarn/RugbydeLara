@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ES">
 <head>
-	<title> Rugby de Lara </title>
+	<title> <?php echo get_bloginfo( 'name' ); ?> </title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="Description" content ='Rugby de Lara'>
